@@ -1,0 +1,24 @@
+concept_instance_icon_1<-sc_node_not_relation;
+=>nrel_main_idtf:
+[экземляр значка 1]
+(*<-lang_ru;;*);
+[instance icon 1]
+(*<-lang_en;;*);;
+
+concept_instance_icon_1 => nrel_type: concept_LeftOutlined;;
+concept_outlined->concept_LeftOutlined;;
+
+concept_instance_icon_2<-sc_node_not_relation;
+=>nrel_main_idtf:
+[экземляр значка 2]
+(*<-lang_ru;;*);
+[instance icon 2]
+(*<-lang_en;;*);;
+
+concept_instance_icon_2 => nrel_type: concept_BackwardFilled;;
+concept_filled->concept_BackwardFilled;;
+
+
+concept_icon->concept_instance_icon_2;;
+concept_icon->concept_instance_icon_1;;
+

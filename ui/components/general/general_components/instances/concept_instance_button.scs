@@ -1,0 +1,25 @@
+concept_instance_button_1<-sc_node_not_relation;
+=>nrel_main_idtf:
+[экземляр кнопки 1]
+(*<-lang_ru;;*);
+[button instance 1]
+(*<-lang_en;;*);;
+
+concept_instance_button_1=> nrel_background_property: concept_red;;
+concept_red<-concept_background_color;;
+
+concept_instance_button_1=> nrel_size: concept_100;;
+concept_100<-concept_width;;
+
+concept_instance_button_1=> nrel_size: concept_50;;
+concept_50<-concept_height;;
+
+concept_instance_button_1=> nrel_context: concept_start;;
+concept_start<-concept_text;;
+
+concept_instance_button_1=> nrel_context_property: concept_red;;
+concept_red<-concept_context_color;;
+
+
+
+concept_button->concept_instance_button_1;;

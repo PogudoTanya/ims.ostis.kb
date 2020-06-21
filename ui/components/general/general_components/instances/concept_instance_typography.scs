@@ -1,0 +1,18 @@
+concept_instance_typography<-sc_node_not_relation;
+=>nrel_main_idtf:
+[редактирование экземляра текста]
+(*<-lang_ru;;*);
+[typography instance]
+(*<-lang_en;;*);;
+
+
+
+concept_instance_typography => nrel_type_text: concept_finish;;
+concept_text->concept_finish;;
+concept_instance_typography => nrel_properties: concept_75;;
+concept_size->concept_75;;
+concept_instance_typography => nrel_properties: concept_blue;;
+concept_color->concept_blue;;
+
+
+concept_typography->concept_instance_typography;;
