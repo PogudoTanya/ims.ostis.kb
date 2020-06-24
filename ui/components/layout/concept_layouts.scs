@@ -1,6 +1,6 @@
 concept_layouts<-sc_node_not_relation;
 =>nrel_main_idtf:
-[компоненты размещения]
+[компонент размещения]
 (*<-lang_ru;;*);
 [layout components]
 (*<-lang_en;;*);

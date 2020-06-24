@@ -1,6 +1,6 @@
 concept_general<-sc_node_not_relation;
 =>nrel_main_idtf:
-[компоненты общего применения]
+[компонент общего применения]
 (*<-lang_ru;;*);
 [general components]
 (*<-lang_en;;*);

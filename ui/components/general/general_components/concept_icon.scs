@@ -1,6 +1,6 @@
 concept_icon<-sc_node_not_relation;
 =>nrel_main_idtf:
-[значки]
+[значок]
 (*<-lang_ru;;*);
 [icon]
 (*<-lang_en;;*);;

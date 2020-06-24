@@ -5,6 +5,7 @@ concept_instance_button_1<-sc_node_not_relation;
 [button instance 1]
 (*<-lang_en;;*);;
 
+
 concept_instance_button_1=> nrel_background_property: concept_red;;
 concept_red<-concept_background_color;;
 
@@ -23,3 +24,4 @@ concept_red<-concept_context_color;;
 
 
 concept_button->concept_instance_button_1;;
+

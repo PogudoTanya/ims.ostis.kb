@@ -1,6 +1,6 @@
 concept_component_of_user_interface<-sc_node_not_relation;
 =>nrel_main_idtf:
-[Компоненты пользовательского интерфейса]
+[Компонент пользовательского интерфейса]
 (*<-lang_ru;;*);
 [Component of user interface]
 (*<-lang_en;;*);

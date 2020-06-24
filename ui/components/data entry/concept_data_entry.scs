@@ -1,11 +1,11 @@
 concept_data_entry<-sc_node_not_relation;
 =>nrel_main_idtf:
-[компоненты ввода данных]
+[компонент ввода данных]
 (*<-lang_ru;;*);
 [data entry]
 (*<-lang_en;;*);
 
-=> nrel_inclusion: concept_input; concept_select;
+=> nrel_inclusion: concept_input;
 
 <- rrel_key_sc_element:
 	...
